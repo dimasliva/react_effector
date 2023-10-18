@@ -3,7 +3,7 @@ module.exports = {
   base: '/react_effector/',
   root: './',
   build: {
-    outDir: 'dist',
+    outDir: 'build',
   },
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
