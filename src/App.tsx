@@ -1,8 +1,9 @@
-import './App.css';
 import { Route, Routes } from 'react-router-dom';
 import Filmpage from './pages/Filmpage';
 import Filmspage from './pages/Filmspage';
 import AddFilm from './pages/AddFilm';
+import  './create.css'
+import  './index.css'
 
 function App() {
 

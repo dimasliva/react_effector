@@ -1,4 +1,3 @@
-import  '../create.css'
 import { Link } from 'react-router-dom'
 import $store, { setNewFilm, addFilm } from "../store/store";
 import { useStore } from 'effector-react';

@@ -1,11 +1,9 @@
-import  '../index.css'
 import { useEffect, useRef } from 'react'
 import { FilmJ } from '../components/Film'
 import { Link } from 'react-router-dom'
-import {useList, useStore} from 'effector-react'
+import {useStore} from 'effector-react'
 import { addFilm, setNewFilm } from '../store/store'
 import $store from "../store/store";
-import axios from 'axios'
 
 import { IFilm } from '../models'
 import getFilms from '../mock/mock'

@@ -1,6 +1,4 @@
-import {Link} from 'react-router-dom'
 import { IFilm } from '../models'
-import  '../index.css'
 interface FilmProps {
   film: IFilm
 }
